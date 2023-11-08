@@ -1,4 +1,4 @@
-### Overview
+# Overview
 This is a straightforward parser designed to process the output of the Linux "tree" command and generate a Dot file. The resulting Dot file represents the directory structure as a graph.
 
 Motivation
