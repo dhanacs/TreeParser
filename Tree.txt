@@ -1,0 +1,316 @@
+C:.
+├───bin
+│   ├───Code
+│   │   ├───About
+│   │   ├───Analysis
+│   │   ├───Base
+│   │   ├───Board
+│   │   ├───Competitions
+│   │   ├───CompetitionWithTutor
+│   │   ├───Config
+│   │   ├───Coordinates
+│   │   ├───CountsCaptures
+│   │   ├───Databases
+│   │   ├───Director
+│   │   ├───Endings
+│   │   ├───Engines
+│   │   ├───Expeditions
+│   │   ├───ForcingMoves
+│   │   ├───GM
+│   │   ├───Kibitzers
+│   │   ├───Leagues
+│   │   ├───LearnGame
+│   │   ├───MainWindow
+│   │   ├───Mate15
+│   │   ├───Menus
+│   │   ├───Nags
+│   │   ├───Odt
+│   │   ├───Openings
+│   │   ├───PlayAgainstEngine
+│   │   ├───Polyglots
+│   │   ├───QT
+│   │   ├───Resistence
+│   │   ├───Routes
+│   │   ├───SingularMoves
+│   │   ├───Sound
+│   │   ├───SQL
+│   │   ├───Tactics
+│   │   ├───Themes
+│   │   │   └───Lichess
+│   │   ├───Tournaments
+│   │   ├───TrainBMT
+│   │   ├───Translations
+│   │   ├───TurnOnLights
+│   │   ├───Tutor
+│   │   ├───Voyager
+│   │   ├───Washing
+│   │   └───WritingDown
+│   ├───extlibs
+│   │   ├───chardet
+│   │   │   └───cli
+│   │   ├───chess
+│   │   ├───PIL
+│   │   ├───psutil
+│   │   ├───PySide2
+│   │   │   └───plugins
+│   │   │       ├───audio
+│   │   │       ├───bearer
+│   │   │       ├───imageformats
+│   │   │       ├───platforminputcontexts
+│   │   │       ├───platforms
+│   │   │       ├───platformthemes
+│   │   │       └───styles
+│   │   ├───shiboken2
+│   │   └───sortedcontainers
+│   └───OS
+│       └───win32
+│           ├───DigitalBoards
+│           └───Engines
+│               ├───acqua
+│               ├───alaric
+│               ├───amyan
+│               ├───andscacs
+│               ├───arminius
+│               ├───bikjump
+│               ├───cdrill
+│               ├───cheng
+│               ├───chispa
+│               ├───cinnamon
+│               ├───clarabit
+│               ├───critter
+│               ├───ct800
+│               ├───cyrano
+│               ├───daydreamer
+│               │   ├───logos
+│               │   └───Windows
+│               │       └───32 bit
+│               ├───delfi
+│               ├───demolito
+│               ├───discocheck
+│               ├───fox
+│               ├───foxcub
+│               ├───fruit
+│               ├───gaia
+│               ├───gambitfruit
+│               ├───garbochess
+│               ├───gaviota
+│               │   ├───gtb
+│               │   └───license
+│               ├───glaurung
+│               │   └───Windows
+│               ├───godel
+│               ├───greko
+│               ├───greko98
+│               ├───gull
+│               ├───hamsters
+│               ├───hannibal
+│               ├───houdini
+│               ├───irina
+│               ├───komodo
+│               ├───lc0
+│               ├───lime
+│               ├───maia
+│               ├───monarch
+│               ├───paladin
+│               ├───pawny
+│               │   └───windows
+│               ├───rhetoric
+│               ├───roce
+│               ├───rocinante
+│               │   ├───logos
+│               │   └───Windows
+│               │       └───Intel
+│               ├───rodent
+│               │   ├───books
+│               │   └───personalities
+│               ├───rodentII
+│               │   ├───books
+│               │   │   └───guide
+│               │   └───personalities
+│               │       ├───club
+│               │       ├───fun
+│               │       ├───league
+│               │       └───school
+│               ├───rybka
+│               ├───simplex
+│               │   └───Windows
+│               ├───stockfish
+│               ├───tarrasch
+│               ├───texel
+│               ├───toga
+│               ├───ufim
+│               ├───umko
+│               │   └───w32
+│               ├───wildcat
+│               └───zappa
+├───Resources
+│   ├───Gaviota
+│   ├───GM
+│   ├───Imgs
+│   │   ├───Buttons in Wikimedia
+│   │   │   ├───Checker
+│   │   │   ├───Dots
+│   │   │   ├───LED Circles
+│   │   │   └───Round Button Icons
+│   │   ├───Snowish
+│   │   └───Ultimate
+│   ├───IntFiles
+│   │   ├───Everest
+│   │   ├───Figs
+│   │   ├───Formulas
+│   │   ├───Maps
+│   │   ├───Mate
+│   │   ├───Routes
+│   │   │   └───Transsiberian
+│   │   │       ├───level1
+│   │   │       ├───level2
+│   │   │       ├───level3
+│   │   │       ├───level4
+│   │   │       └───level5
+│   │   ├───Svg
+│   │   ├───Templates
+│   │   │   └───A4_landscape
+│   │   │       ├───Configurations2
+│   │   │       │   ├───accelerator
+│   │   │       │   ├───floater
+│   │   │       │   ├───images
+│   │   │       │   │   └───Bitmaps
+│   │   │       │   ├───menubar
+│   │   │       │   ├───popupmenu
+│   │   │       │   ├───progressbar
+│   │   │       │   ├───statusbar
+│   │   │       │   ├───toolbar
+│   │   │       │   └───toolpanel
+│   │   │       ├───META-INF
+│   │   │       └───Thumbnails
+│   │   └───Visual
+│   ├───Locale
+│   │   ├───ar
+│   │   │   └───LC_MESSAGES
+│   │   ├───az
+│   │   │   └───LC_MESSAGES
+│   │   ├───br
+│   │   │   └───LC_MESSAGES
+│   │   ├───ca
+│   │   │   └───LC_MESSAGES
+│   │   ├───cs
+│   │   │   └───LC_MESSAGES
+│   │   ├───de
+│   │   │   └───LC_MESSAGES
+│   │   ├───en
+│   │   │   └───LC_MESSAGES
+│   │   ├───es
+│   │   │   └───LC_MESSAGES
+│   │   ├───eu
+│   │   │   └───LC_MESSAGES
+│   │   ├───fi
+│   │   │   └───LC_MESSAGES
+│   │   ├───fr
+│   │   │   └───LC_MESSAGES
+│   │   ├───gr
+│   │   │   └───LC_MESSAGES
+│   │   ├───id
+│   │   │   └───LC_MESSAGES
+│   │   ├───it
+│   │   │   └───LC_MESSAGES
+│   │   ├───nl
+│   │   │   └───LC_MESSAGES
+│   │   ├───pl
+│   │   │   └───LC_MESSAGES
+│   │   ├───po
+│   │   │   └───LC_MESSAGES
+│   │   ├───ro
+│   │   │   └───LC_MESSAGES
+│   │   ├───ru
+│   │   │   └───LC_MESSAGES
+│   │   ├───si
+│   │   │   └───LC_MESSAGES
+│   │   ├───sv
+│   │   │   └───LC_MESSAGES
+│   │   ├───tr
+│   │   │   └───LC_MESSAGES
+│   │   ├───uk
+│   │   │   └───LC_MESSAGES
+│   │   ├───vi
+│   │   │   └───LC_MESSAGES
+│   │   └───zh
+│   │       └───LC_MESSAGES
+│   ├───Openings
+│   │   ├───Extras
+│   │   └───Players
+│   ├───Pieces
+│   │   ├───Abxtadt
+│   │   ├───AlfonsoX
+│   │   ├───Alpha
+│   │   ├───Book Classic
+│   │   ├───Book Classic B
+│   │   ├───Book Diagram
+│   │   ├───Book Diagram B
+│   │   ├───Book Strategie
+│   │   ├───Book Strategie B
+│   │   ├───Cartoon
+│   │   ├───Cburnett
+│   │   ├───CburnettDark
+│   │   ├───CburnettSize
+│   │   ├───Celtic
+│   │   ├───Chessicons
+│   │   ├───Condal
+│   │   ├───Etruscan
+│   │   ├───Etruscan-clear
+│   │   ├───Eyes
+│   │   ├───Fantasy
+│   │   ├───FantasyAlt
+│   │   ├───Freak
+│   │   ├───Internet
+│   │   ├───JinAlpha
+│   │   ├───Kidsdraw
+│   │   ├───Kilfiger
+│   │   ├───Leipzig
+│   │   ├───Magnetic
+│   │   ├───Maya
+│   │   ├───Merida
+│   │   ├───Montreal
+│   │   ├───Pirat
+│   │   ├───Prmi
+│   │   ├───QwertyXP20000
+│   │   ├───Regular
+│   │   ├───Regular2
+│   │   ├───Skulls
+│   │   ├───Spatial
+│   │   └───Staunton 3D
+│   ├───Styles
+│   ├───Tactics
+│   │   ├───Checkmates from FICS database
+│   │   ├───Checkmates in GM games
+│   │   ├───Mate in two with specific pieces
+│   │   ├───Tactics by UNED chess school
+│   │   └───Tactics by Uwe Auerswald
+│   ├───Themes
+│   └───Trainings
+│       ├───Checkmates by Eduardo Sadier
+│       ├───Checkmates from FICS database
+│       ├───Checkmates in GM games
+│       ├───Endgames by Rui Grafino
+│       │   ├───Famous Studies
+│       │   ├───Major Pieces Endings
+│       │   ├───Major Vs Minor Pieces Endings
+│       │   ├───Pawns Breaks
+│       │   └───The Four Basic Mates
+│       ├───Endgames by Victor Perez
+│       ├───Pawn endings
+│       ├───Singular moves to equalize
+│       ├───Singular moves to win
+│       ├───Tactics by UNED chess school
+│       ├───Tactics by Uwe Auerswald
+│       ├───Technique by Michele Tumbarello
+│       └───Varied positions by Joaquin Alvarez
+└───UserData
+    ├───Databases
+    ├───OpeningLines
+    ├───Personal Training
+    ├───Results
+    ├───Scanners
+    ├───Sounds
+    ├───Tactics
+    ├───tmp
+    └───__Config__
