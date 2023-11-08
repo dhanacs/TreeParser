@@ -1,4 +1,4 @@
-# Overview
+### Overview
 This is a straightforward parser designed to process the output of the Linux "tree" command and generate a Dot file. The resulting Dot file represents the directory structure as a graph.
 
 Motivation
@@ -6,6 +6,7 @@ The Linux "tree" command is a useful tool for displaying directory structures in
 
 ### Example tree
 
+```
 Resources
 ├───Gaviota
 ├───GM
@@ -16,9 +17,11 @@ Resources
     ├───IntFiles
     │   └───Everest
     └───Figs
+```
 
 ### Dot file
 
+```
 digraph G {
     "Imgs" -> "Figs"
     "Imgs" -> "IntFiles"
@@ -30,3 +33,4 @@ digraph G {
     "Wikimedia" -> "Snowish"
     "Wikimedia" -> "Ultimate"
 }
+```
